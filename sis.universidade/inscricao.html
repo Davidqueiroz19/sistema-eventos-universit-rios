@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - UniEventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">UniEventos</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="inscricao.html" class="active">Inscrição</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2 style="color: #1a365d; text-align: center; margin-bottom: 1.5rem;">Formulário de Inscrição</h2>
+            
+            <form action="#" method="get">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail Acadêmico:</label>
+                    <input type="email" id="email" name="email" required placeholder="seu.email@universidade.edu.br">
+                </div>
+
+                <div class="form-group">
+                    <label for="curso">Curso:</label>
+                    <input type="text" id="curso" name="curso" required placeholder="Ex: Ciência da Computação">
+                </div>
+
+                <div class="form-group">
+                    <label for="periodo">Período:</label>
+                    <select id="periodo" name="periodo" required>
+                        <option value="">Selecione seu período</option>
+                        <option value="1">1º Período</option>
+                        <option value="2">2º Período</option>
+                        <option value="3">3º Período</option>
+                        <option value="4">4º Período</option>
+                        <option value="5">5º Período</option>
+                        <option value="6">6º Período ou superior</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="evento">Evento Desejado:</label>
+                    <select id="evento" name="evento" required>
+                        <option value="">Selecione o evento</option>
+                        <option value="ia">Futuro da IA na Tecnologia</option>
+                        <option value="html">Introdução ao HTML & CSS</option>
+                        <option value="ux">UI/UX Design Responsivo</option>
+                        <option value="escrita">Escrita Científica Eficiente</option>
+                        <option value="carreira">Carreira & Mercado de Trabalho</option>
+                        <option value="seguranca">Fundamentos da Cibersegurança</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Modalidade:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="presencial" name="modalidade" value="presencial" checked>
+                        <label for="presencial">Presencial</label>
+                        
+                        <input type="radio" id="online" name="modalidade" value="online">
+                        <label for="online">Online</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="confirmacao" name="confirmacao" required>
+                        <label for="confirmacao">Confirmo que as informações prestadas são verdadeiras.</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">Realizar Inscrição</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Universidade Exemplo - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
