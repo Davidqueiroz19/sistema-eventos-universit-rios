@@ -11,5 +11,7 @@ Projeto acadêmico desenvolvido para a divulgação de eventos, palestras, works
 - **Programação (`programacao.html`):** Tabela detalhada dos horários utilizando mesclagem com `rowspan` e `colspan`.
 - **Inscrição (`inscricao.html`):** Formulário interativo e responsivo para cadastro de participantes.
 
-## 🌐 Link de Acesso
-https://seu-usuario.github.io/sistema-eventos-universitarios/
+
+## Link de Acesso
+O site está publicado no GitHub Pages e pode ser acessado através do link:
+[https://seu-usuario.github.io/nome-do-repositorio](https://seu-usuario.github.io/nome-do-repositorio)
