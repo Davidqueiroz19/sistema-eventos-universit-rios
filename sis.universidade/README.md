@@ -14,4 +14,4 @@ Projeto acadêmico desenvolvido para a divulgação de eventos, palestras, works
 
 ## Link de Acesso
 O site está publicado no GitHub Pages e pode ser acessado através do link:
-[https://seu-usuario.github.io/nome-do-repositorio](https://seu-usuario.github.io/nome-do-repositorio)
+[Acessar o site](https://davidqueiroz19.github.io/sistema-eventos-universit-rios/)
